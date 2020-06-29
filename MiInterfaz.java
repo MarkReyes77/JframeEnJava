@@ -5,6 +5,7 @@ public class MiInterfaz{
 	//Le hacemos un llamado a la clase del final
 		ventana vta = new ventana();
 		vta.setVisible(true);//hacemos que nuestro Frame (ventana) sea visible
+		///llamamos a setDefaultCloseOperation
 		vta.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 }
